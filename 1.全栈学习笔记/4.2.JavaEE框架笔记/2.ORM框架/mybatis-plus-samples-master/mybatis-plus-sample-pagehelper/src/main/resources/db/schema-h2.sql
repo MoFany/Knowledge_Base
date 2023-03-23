@@ -1,8 +1,0 @@
-DROP TABLE IF EXISTS sys_user;
-
-CREATE TABLE sys_user
-(
-    id   BIGINT NOT NULL COMMENT '主键ID',
-    name VARCHAR(30) NULL DEFAULT NULL COMMENT '姓名',
-    PRIMARY KEY (id)
-);
